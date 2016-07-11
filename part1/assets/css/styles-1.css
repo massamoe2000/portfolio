@@ -18,7 +18,13 @@ body{
 h1,h2,h3,h4,h5,h6{
 	color: #39444C;
 }
+p{
+	margin: 0cm 4cm 1cm 4cm;
+}
 
+ul,li {
+	display: inline;
+}
 #main-content{
 	position: relative;
 	background: #fff;
@@ -89,6 +95,7 @@ a:focus{
 .row-title{
 	color:#39444C;
 	font-weight: 400;
+	text-align: center;
 }
 
 .push-down{
@@ -314,10 +321,10 @@ hr{
 	background: none;
 }
 #site-nav a .fa{
-	display: block;
+	display: inline;
 	margin-bottom: 5px;
 	font-size: 21px;
-	text-align: center;
+	text-align: right;
 }
 
 #site-nav ul li + li{
@@ -362,6 +369,7 @@ hr{
 	font-size: 72px;
 	font-weight: 400;
 	color:#39444C;
+
 }
 
 #home h2{
@@ -772,9 +780,9 @@ hr{
 }
 
 #projects-container .project-item{
-	display:block;
+	display:inline;
 	position:relative;
-	margin:0;
+	margin:auto;
 	padding:0 1px;
 	margin-bottom: 2px;
 	overflow:hidden;

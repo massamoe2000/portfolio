@@ -314,14 +314,15 @@ hr{
 	background: none;
 }
 #site-nav a .fa{
-	display: block;
+	display: inline;
 	margin-bottom: 5px;
 	font-size: 21px;
 	text-align: center;
 }
 
 #site-nav ul li + li{
-	border-left:1px solid #b9c4cC;
+	display: inline;
+	border-right:1px solid #b9c4cC;
 }
 
 /*---------------------
